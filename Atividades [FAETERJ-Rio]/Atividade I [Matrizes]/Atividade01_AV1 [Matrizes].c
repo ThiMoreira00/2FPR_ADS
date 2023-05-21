@@ -1,6 +1,8 @@
 /*
 
 	FAETERJ-Rio
+	FPR - Fundamentos de Programação - Manhã
+	Professor Leonardo Vianna
 	Aluno Thiago Moreira
 	
 	Atividade 1 [Matrizes]
