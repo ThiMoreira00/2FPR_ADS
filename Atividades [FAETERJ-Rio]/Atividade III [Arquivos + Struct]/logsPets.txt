@@ -1,0 +1,3 @@
+aaa | Prezado aaa , a vacina do pet aaa venceu no dia 19/05/2022. Podemos agendar a nova dose?
+bbb | Prezado bbb , a vacina do pet bbb venceu no dia 21/05/2022. Podemos agendar a nova dose?
+ccc | Prezado ccc , a vacina do pet ccc venceu no dia 22/05/2022. Podemos agendar a nova dose?
