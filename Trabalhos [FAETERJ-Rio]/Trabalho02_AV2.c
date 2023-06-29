@@ -56,7 +56,7 @@ void main ()
 	
 	do
 	{
-		system ("CLS");		//limpar tela    clrscr();
+//		system ("CLS");		//limpar tela    clrscr();
 		
 		//exibindo o meu ao usuário
 		op = menu ();
@@ -244,21 +244,24 @@ int alterar (TLista L, int num1, int num2)
 {
 	//declaração de variáveis
 	TLista aux;
-	int quant = 0;
+	int quant = 0, quantNum1, quantNum2;
 	
 	//fazendo 'aux' apontar para o primeiro nó
 	aux = L;
 	
+	quantNum1 = localizarNumero(L, num1);
+	quantNum2 = localizarNumero(L, num2);
+			
 	//percorrendo toda a lista
 	while (aux)
 	{
 		//verificando se o número a ser alterado foi encontrado
 		if (aux->valor == num1)
 		{
-			if(localizarNumero(L, num2) < num2) {
+			// Verificando se a quantidade de aparições é válida para alteração
+			if((quantNum2 < num2) && ((quantNum1 + quantNum2) == num2)) {
 				aux->valor = num2;
-			
-				quant++;	
+				quant++;
 			}
 		}
 		//atualizar o aux
